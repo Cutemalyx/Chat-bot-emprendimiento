@@ -39,12 +39,16 @@ Asistente virtual para Cherry Chewy (emprendimiento de accesorios en porcelanicr
 ## 📂 Estructura
 
 Chat-bot-emprendimiento/
-├── static/ script.js # Patrones de conversación style.css # Archivo frontend
-├── templates/ index.html # Vista HTML
-├── chatbot.py # Lógica del chatbot
-├── app.py # Aplicación Flask
+├── static/
+│ ├── script.js # Lógica del frontend
+│ └── style.css # Estilos CSS
+├── templates/
+│ └── index.html # Vista principal
+├── chatbot.py # Lógica del chatbot (IA)
+├── app.py # Aplicación Flask (backend)
 ├── intents.json # Patrones de conversación
-└── README.md # Documentación
+├── unknown_questions.log # Preguntas no reconocidas
+└── README.md # Este archivo
 
 ---
 
