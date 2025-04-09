@@ -1,0 +1,109 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(241, 193, 253, 0.2);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-container {
+    width: 90%;
+    max-width: 500px;
+    height: 80vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, rgba(177, 113, 207, 0.9), rgba(255, 161, 198, 0.9));
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.chat-box {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    white-space: pre-line;
+    max-width: 70%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: rgba(177, 113, 207, 0.9);
+    color: white;
+    border-bottom-left-radius: 5px;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: rgba(255, 161, 198, 0.9);
+    color: white;
+    border-bottom-right-radius: 5px;
+}
+
+.input-area {
+    display: flex;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: rgba(255, 204, 235, 1);
+}
+
+button {
+    background-color: rgba(255, 204, 235, 1);
+    color: #6a3093;
+    border: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 161, 198, 1);
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

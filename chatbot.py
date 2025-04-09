@@ -102,18 +102,18 @@ for epoch in range(1000):
 
 # Funciones auxiliares mejoradas
 def log_unknown_question(question):
-    # Registra preguntas no entendidas
+    """Registra preguntas no entendidas"""
     with open('unknown_questions.log', 'a', encoding='utf-8') as f:
         f.write(f"{datetime.now():%Y-%m-%d %H:%M:%S} - {question}\n")
 
 def get_suggestions():
-    # Devuelve sugerencias relevantes
+    """Devuelve sugerencias relevantes"""
     priority_tags = ['tipos', 'materiales', 'precios', 'envios', 'redes']
     available = [t for t in priority_tags if t in tags]
     return available[:3] if available else random.sample(tags, min(3, len(tags)))
 
 def predict_tag(sentence, threshold=0.65):
-    # Predicción con manejo de contexto y preprocesamiento
+    """Predicción con manejo de contexto"""
     doc = nlp(unidecode(sentence.lower()))
     keywords = [
         token.lemma_ for token in doc 
@@ -149,41 +149,45 @@ def predict_tag(sentence, threshold=0.65):
         max_prob, idx = torch.max(prob, 0)
         return (tags[idx.item()], max_prob.item()) if max_prob > threshold else (None, None)
 
-# Interacción con el usuario
-print("\n🌸 ¡Hola! Soy el asistente de Cherry Chewy. Pregúntame sobre cualquier duda que tengas.")
-print("(Escribe 'salir' cuando quieras terminar)\n")
+def run_cli_interface():
+    """Ejecuta la interfaz de línea de comandos"""
+    print("\n🌸 ¡Hola! Soy el asistente de Cherry Chewy. Pregúntame sobre cualquier duda que tengas.")
+    print("(Escribe 'salir' cuando quieras terminar)\n")
 
-while True:
-    user_input = input("Tú: ").strip()
-    if user_input.lower() in ['salir', 'exit', 'adiós']:
-        print("\nBot: ¡Gracias por visitar Cherry Chewy! 💕")
-        break
-    
-    # Manejar selección numérica
-    if user_input.isdigit():
-        num = int(user_input)
-        suggestions = get_suggestions()
-        if 1 <= num <= len(suggestions):
-            user_input = suggestions[num-1]
+    while True:
+        user_input = input("Tú: ").strip()
+        if user_input.lower() in ['salir', 'exit', 'adiós']:
+            print("\nBot: ¡Gracias por visitar Cherry Chewy! 💕")
+            break
+        
+        # Manejar selección numérica
+        if user_input.isdigit():
+            num = int(user_input)
+            suggestions = get_suggestions()
+            if 1 <= num <= len(suggestions):
+                user_input = suggestions[num-1]
+            else:
+                print("\n⚠️ Por favor elige un número entre 1 y", len(suggestions))
+                continue
+        
+        tag, confidence = predict_tag(user_input)
+        
+        if not tag:
+            log_unknown_question(user_input)
+            print("\nBot: No estoy segura de entender. ¿Te refieres a algo de esto?")
+            suggestions = get_suggestions()
+            for i, suggestion in enumerate(suggestions, 1):
+                print(f"  {i}. {suggestion.capitalize()}")
+            print("\nResponde con el número o reformula tu pregunta ❓")
         else:
-            print("\n⚠️ Por favor elige un número entre 1 y", len(suggestions))
-            continue
-    
-    tag, confidence = predict_tag(user_input)
-    
-    if not tag:
-        log_unknown_question(user_input)
-        print("\nBot: No estoy segura de entender. ¿Te refieres a algo de esto?")
-        suggestions = get_suggestions()
-        for i, suggestion in enumerate(suggestions, 1):
-            print(f"  {i}. {suggestion.capitalize()}")
-        print("\nResponde con el número o reformula tu pregunta ❓")
-    else:
-        # Buscar la respuesta correspondiente
-        response = next(
-            (random.choice(intent['responses']) 
-             for intent in intents['intents'] 
-             if intent['tag'] == tag),
-            "No tengo información sobre eso."
-        )
-        print(f"\nBot: {response}")
+            response = next(
+                (random.choice(intent['responses']) 
+                 for intent in intents['intents'] 
+                 if intent['tag'] == tag),
+                "No tengo información sobre eso."
+            )
+            print(f"\nBot: {response}")
+
+# Solo ejecuta la interfaz CLI si se llama directamente al archivo
+if __name__ == '__main__':
+    run_cli_interface()

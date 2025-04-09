@@ -32,7 +32,7 @@
     {
         "tag": "envios",
         "patterns": ["¿Hacen envíos?", "¿Realizan envíos?", "¿Hacen domicilios?", "¿Hacen envíos a otras ciudades?", "¿Hacen envíos a otros municipios?", "¿Hacen envíos a otras regiones?", "¿Hacen envíos internacionales?", "¿Cuánto cuesta el envío?", "¿Cuánto tardan en llegar los envíos?", "¿Cuánto tarda el envío?", "¿Cuánto tiempo tarda el envío?"], 
-        "responses": ["Hacemos envios en todo Colombia 🇨🇴 a traves de la empresa Interrapidisimo para ofrecer los mejores precios a nuestros clientes. \n📍 → El costo de los envios puede variar dependiendo de la ciudad o pueblo de destino. \n📦 → El tiempo para que enviemos tu paquete es de hasta 3 dias habiles. \n📅 → Los paquetes pueden tardar entre 1 y 4 dias habiles en llegar a su destino. \n ⚠️ RECUERDA, no hacemos envios contra entrega ⚠️", "¡Actualmente solo contamos con envios nacionales en el pais de Colombia 🇨🇴 y esperamos pronto poder expandirnos a nuevos lugares!"]
+        "responses": ["Hacemos envios en todo Colombia 🇨🇴 a traves de la empresa Interrapidisimo para ofrecer los mejores precios a nuestros clientes. \n📍 → El costo de los envios puede variar dependiendo de la ciudad o pueblo de destino. \n📦 → El tiempo para que enviemos tu paquete es de hasta 3 dias habiles. \n📅 → Los paquetes pueden tardar entre 1 y 4 dias habiles en llegar a su destino. \n⚠️ RECUERDA, no hacemos envios contra entrega ⚠️", "¡Actualmente solo contamos con envios nacionales en el pais de Colombia 🇨🇴 y esperamos pronto poder expandirnos a nuevos lugares!"]
      },
 
      {
