@@ -20,7 +20,7 @@
     {
         "tag": "cuidados",
         "patterns": ["¿Los accesorios son resistente?", "¿Como cuido mis accesorios?", "¿Cuales son sus cuidados?", "¿Los productos son resistentes?", "¿Son resistentes?", "¿puedo mojar los accesorios?", "¿que pasa si los mojo?", "¿Que recomiendas para cuidar los accesorios?", "¿Que cuidados tienen los productos?"],
-        "responses": ["Como cualquier producto, los accesorios requieren ciertos cuidados para mantenerse en buen estado. \n💦Te recomendamos evitar el contacto con agua, productos químicos y perfumes. \n🔥Guárdalos en un lugar lejano a fuentes de alta calor. \n🫧Límpialos con un paño suave para mantener su brillo y evitar el desgaste. \n💪Recuerda no utilizarlos si haras actividad fisica, puedes lastimarte o dañar los accesorios en el proceso."]
+        "responses": ["Como cualquier producto, los accesorios requieren ciertos cuidados para mantenerse en buen estado. \n💦 Te recomendamos evitar el contacto con agua, productos químicos y perfumes. \n🔥 Guárdalos en un lugar lejano a fuentes de alta calor. \n🫧 Límpialos con un paño suave para mantener su brillo y evitar el desgaste. \n💪 Recuerda no utilizarlos si haras actividad fisica, puedes lastimarte o dañar los accesorios en el proceso."]
     },
 
     {
@@ -32,7 +32,7 @@
     {
         "tag": "envios",
         "patterns": ["¿Hacen envíos?", "¿Realizan envíos?", "¿Hacen domicilios?", "¿Hacen envíos a otras ciudades?", "¿Hacen envíos a otros municipios?", "¿Hacen envíos a otras regiones?", "¿Hacen envíos internacionales?", "¿Cuánto cuesta el envío?", "¿Cuánto tardan en llegar los envíos?", "¿Cuánto tarda el envío?", "¿Cuánto tiempo tarda el envío?"], 
-        "responses": ["Hacemos envios en todo Colombia 🇨🇴 a traves de la empresa Interrapidisimo para ofrecer los mejores precios a nuestros clientes. \n📍 → El costo de los envios puede variar dependiendo de la ciudad o pueblo de destino. \n 📦 → El tiempo para que enviemos tu paquete es de hasta 3 dias habiles. \n 📅 → Los paquetes pueden tardar entre 1 y 4 dias habiles en llegar a su destino. \n ⚠️RECUERDA, no hacemos envios contra entrega⚠️", "¡Actualmente solo contamos con envios nacionales en el pais de Colombia 🇨🇴 y esperamos pronto poder expandirnos a nuevos lugares!"]
+        "responses": ["Hacemos envios en todo Colombia 🇨🇴 a traves de la empresa Interrapidisimo para ofrecer los mejores precios a nuestros clientes. \n📍 → El costo de los envios puede variar dependiendo de la ciudad o pueblo de destino. \n📦 → El tiempo para que enviemos tu paquete es de hasta 3 dias habiles. \n📅 → Los paquetes pueden tardar entre 1 y 4 dias habiles en llegar a su destino. \n ⚠️ RECUERDA, no hacemos envios contra entrega ⚠️", "¡Actualmente solo contamos con envios nacionales en el pais de Colombia 🇨🇴 y esperamos pronto poder expandirnos a nuevos lugares!"]
      },
 
      {
@@ -50,13 +50,13 @@
      {
         "tag": "pagos",
         "patterns": ["¿Que metodos de pago aceptan?", "¿Cuales son los metodos de pago?", "¿Que formas de pago aceptan?", "¿Aceptan tarjetas de credito?", "¿Aceptan tarjetas debito?", "¿Aceptan pagos en efectivo?", "¿Aceptan pagos en efectivo?", "¿Aceptan transferencias?", "¿Aceptan pagos por PSE?", "¿Aceptan pagos por Nequi?", "¿Aceptan pagos por Daviplata?", "¿Aceptan pagos por Bancolombia a la mano?", "¿Aceptan pagos por Paypal?", "¿Aceptan pagos por Transfiya?"], 
-        "responses": ["Estos son nuestros medios de pago disponibles: \n💳 → Transferencias bancarias \n💳 → Consignaciones en efectivo \n💳 → Daviplata \n💳 → Nequi \n💳 → Paypal \n\n💵Recuerda que no aceptamos pagos contra entrega💵"]
+        "responses": ["Estos son nuestros medios de pago disponibles: \n💳 → Transferencias bancarias \n💳 → Consignaciones en efectivo \n💳 → Daviplata \n💳 → Nequi \n💳 → Paypal \n\n💵 RECUERDA, no aceptamos pagos contra entrega 💵"]
      },
 
      {
         "tag": "reembolsos",
         "patterns": ["¿se pueden hacer reembolsos?", "¿se pueden hacer devoluciones?", "¿se pueden hacer cambios?", "¿se pueden hacer reembolsos o devoluciones?", "¿se pueden hacer cambios o devoluciones?", "¿cual es su politica de reembolsos?", "¿cual es su politica de devoluciones?", "¿cual es su politica de cambios?", "¿cual es su politica de reembolsos y devoluciones?", "¿que pasa si mi accesorios llega dañado?", "¿que pasa si mi accesorio llega roto?", "¿que pasa si mi accesorio llega en mal estado?", "¿que pasa si no me gusta mi accesorio?"], 
-        "responses": ["Recuerda que todos nuestros productos son artesanales y hechos a mano, por lo que cada pieza es única y especial. \n❌No aceptamos cambios ni devoluciones por productos que no te gusten o que no sean de tu agrado.", "⚠️ Si tu producto llega dañado o roto, puedes contactarnos a traves de MD en Instagram para resolver el inconveniente. \n No nos hacemos responsables en caso de daños por un mal cuidado de los accesorios."]
+        "responses": ["Recuerda que todos nuestros productos son artesanales y hechos a mano, por lo que cada pieza es única y especial. \n❌ No aceptamos cambios ni devoluciones por productos que no te gusten o que no sean de tu agrado.", "⚠️ Si tu producto llega dañado o roto, puedes contactarnos a traves de MD en Instagram para resolver el inconveniente. \n No nos hacemos responsables en caso de daños por un mal cuidado de los accesorios."]
      },
 
      {
