@@ -1,4 +1,4 @@
-# Cherry Chewy - Asistente Virtual Inteligente
+ # Cherry Chewy - Asistente Virtual Inteligente
 
 🌸 Un chatbot híbrido para emprendimientos artesanales 🌸
 
@@ -24,7 +24,7 @@ Asistente virtual para Cherry Chewy (emprendimiento de accesorios en porcelanicr
 ## 🚀 Cómo usarlo
 
 1. Clona el repositorio
-2. Instala dependencias.
+2. Instala dependencias: `pip install -r requirements.txt`
 3. Ejecuta: `python app.py`
 4. Abre en navegador: `http://localhost:5000`
 
