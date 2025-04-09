@@ -1,0 +1,87 @@
+{"intents":[
+    {
+        "tag": "saludos", 
+        "patterns": ["Hola", "¿Cómo estás?", "¿Qué tal?", "Buenos días", "Buenas tardes", "Buenas noches", "Buen dia", "Hey", "Hi"],
+        "responses": ["¡Hola! ¿En qué puedo ayudarte hoy?", "¡Hola! ¿Cómo estás?", "¡Hola! ¿Qué tal? ¿En qué puedo ayudarte?", "¡Hola! ¿Cómo va todo?", "¡Hola! ¿Qué tal? ¿Cómo te va?"]
+    },
+
+    {
+        "tag": "tipos", 
+        "patterns": ["¿Que tipo de accesorios vendes?", "¿Qué tipos de accesorios tienes?", "¿Cuáles son los tipos de accesorios que ofreces?", "¿Qué tipos de productos vendes?", "¿Qué tipo de productos tienes?", "¿Cuáles son los tipos de productos que ofreces?", "¿Qué tipo de accesorios hay?", "¿que accesorios hay?", "¿que tienen?", "¿que accesorios tienen?"],
+        "responses": ["Contamos con distintos tipos de accesorios para gusto de todos: \n🌸 → Aretes \n🌸 → Collares \n🌸 → Llaveros \n🌸 → Anillos"]
+    },
+
+    {
+        "tag": "materiales",
+        "patterns": ["¿De qué material están hechos los accesorios?", "¿Qué materiales usas para hacer los accesorios?", "¿Cuáles son los materiales de los accesorios?", "¿De qué materiales son los productos", "¿De que estan hechos los accesorios?", "¿de que estan hechos sus productos?", "¿que material utilizan?"],
+        "responses": ["Todos nuestros accesorios estan hechos en porcelanicron o porcelana fria, una masa flexible y moldeable que se seca al aire. Además, utilizamos pintura acrílica y barniz para darles un acabado brillante y duradero. \n✨ Nuestros productos son artesanales, por lo que cada pieza es única y especial ✨", "Ademas del porcelanicron, utilizamos otros materiales como bisuteria de acero inoxidable y en nuestros aretes contamos con la opcion de plastico hipoalergenico, para aquellas persona con piel más sensible❣️"]
+        
+    },
+    
+    {
+        "tag": "cuidados",
+        "patterns": ["¿Los accesorios son resistente?", "¿Como cuido mis accesorios?", "¿Cuales son sus cuidados?", "¿Los productos son resistentes?", "¿Son resistentes?", "¿puedo mojar los accesorios?", "¿que pasa si los mojo?", "¿Que recomiendas para cuidar los accesorios?", "¿Que cuidados tienen los productos?"],
+        "responses": ["Como cualquier producto, los accesorios requieren ciertos cuidados para mantenerse en buen estado. \n💦Te recomendamos evitar el contacto con agua, productos químicos y perfumes. \n🔥Guárdalos en un lugar lejano a fuentes de alta calor. \n🫧Límpialos con un paño suave para mantener su brillo y evitar el desgaste. \n💪Recuerda no utilizarlos si haras actividad fisica, puedes lastimarte o dañar los accesorios en el proceso."]
+    },
+
+    {
+       "tag": "precios",
+       "patterns": ["¿Cuánto cuestan los accesorios?", "¿Cuáles son los precios de los productos?", "¿Cuánto valen los accesorios?", "¿Cuánto cuesta cada accesorio?", "¿Cuánto cuesta cada producto?", "¿Cuánto valen los productos?", "¿que precio tiene los accesorios?", "¿cuanto valen?", "¿Cuánto cuestan?", "¿cuanto valen los aretes?", "¿cuanto valen los collares?", "¿cuanto valen los llaveros?", "¿cuanto valen los anillos?"], 
+       "responses": ["Puedes encontrar los precios de todos los accesorios en nuestro catalogo 💸", "Pregunta por nuestros precios a traves de MD en nuestro perfil de Instagram 📩", "Puedes encontrar los precios de todos los accesorios en nuestro feed de Instagram 💸", "Consulta nuestros precios a traves de redes sociales 📱", "Si quieres consultar por un articulo especifico, puedes encontrarlo en nuestro catalogo de accesorios", "Todos nuestro accesorios oscilan entre los $5000 y $20.000, si quieres consultar por uno en especifico no dudes en revisar nuestro catalogo o feed de instagram 💎"]
+    },
+
+    {
+        "tag": "envios",
+        "patterns": ["¿Hacen envíos?", "¿Realizan envíos?", "¿Hacen domicilios?", "¿Hacen envíos a otras ciudades?", "¿Hacen envíos a otros municipios?", "¿Hacen envíos a otras regiones?", "¿Hacen envíos internacionales?", "¿Cuánto cuesta el envío?", "¿Cuánto tardan en llegar los envíos?", "¿Cuánto tarda el envío?", "¿Cuánto tiempo tarda el envío?"], 
+        "responses": ["Hacemos envios en todo Colombia 🇨🇴 a traves de la empresa Interrapidisimo para ofrecer los mejores precios a nuestros clientes. \n📍 → El costo de los envios puede variar dependiendo de la ciudad o pueblo de destino. \n 📦 → El tiempo para que enviemos tu paquete es de hasta 3 dias habiles. \n 📅 → Los paquetes pueden tardar entre 1 y 4 dias habiles en llegar a su destino. \n ⚠️RECUERDA, no hacemos envios contra entrega⚠️", "¡Actualmente solo contamos con envios nacionales en el pais de Colombia 🇨🇴 y esperamos pronto poder expandirnos a nuevos lugares!"]
+     },
+
+     {
+        "tag": "redes",
+        "patterns": ["¿Tienen redes sociales?", "¿Cuales son sus redes sociales?", "¿Tienen Instagram?", "¿Tienen Facebook?", "¿Tienen TikTok?", "¿Cual es su Instagram?", "¿Cual es su Facebook?", "¿Cual es su TikTok?", "¿Cuales son sus redes sociales?", "¿Donde puedo seguirlos?", "¿Donde puedo ver sus productos?", "¿Donde puedo ver su catalogo?", "¿Donde puedo ver sus redes sociales?", "¿Cual es su cuenta de Instagram?", "¿Cual es su cuenta de Facebook?", "¿Cual es su cuenta de TikTok?"], 
+        "responses": ["Encuentranos a traves de nuestras redes sociales: \n📸 → Instagram: @cherrychewyshop \n🎵 → TikTok: @cherrychewyshop  \n\nAllí podras encontrar nuestro catalogo de productos, precios y novedades. ¡No olvides seguirnos!"]
+     },
+
+     {
+        "tag": "ubicacion",
+        "patterns": ["¿Donde estan ubicados?", "¿Cual es su ubicacion?", "¿Donde puedo encontrarlos?", "¿Donde puedo ver sus productos?", "¿Donde puedo ver su catalogo?", "¿Cual es su direccion?", "¿Cual es su direccion fisica?", "¿Cual es su direccion de la tienda?", "¿Cual es la direccion de la tienda?", "¿cuentan con tienda fisica?", "¿cuentan con punto fisico?", "¿tienen punto fisico?", "¿tienen tienda fisica?"], 
+        "responses": ["Somos una tienda virtual ubicada en Fusagasugá, Cundinamarca📍", "No contamos con punto fisico ya que somos una tienda virtual, pero puedes encontrar todos nuestros productos en las redes sociales.", "Estamos ubicados en Fusagasugá, Cundinamarca📍, puedes pedir nuestros productos a traves de MD en Instagram 📩"]
+     },
+
+     {
+        "tag": "pagos",
+        "patterns": ["¿Que metodos de pago aceptan?", "¿Cuales son los metodos de pago?", "¿Que formas de pago aceptan?", "¿Aceptan tarjetas de credito?", "¿Aceptan tarjetas debito?", "¿Aceptan pagos en efectivo?", "¿Aceptan pagos en efectivo?", "¿Aceptan transferencias?", "¿Aceptan pagos por PSE?", "¿Aceptan pagos por Nequi?", "¿Aceptan pagos por Daviplata?", "¿Aceptan pagos por Bancolombia a la mano?", "¿Aceptan pagos por Paypal?", "¿Aceptan pagos por Transfiya?"], 
+        "responses": ["Estos son nuestros medios de pago disponibles: \n💳 → Transferencias bancarias \n💳 → Consignaciones en efectivo \n💳 → Daviplata \n💳 → Nequi \n💳 → Paypal \n\n💵Recuerda que no aceptamos pagos contra entrega💵"]
+     },
+
+     {
+        "tag": "reembolsos",
+        "patterns": ["¿se pueden hacer reembolsos?", "¿se pueden hacer devoluciones?", "¿se pueden hacer cambios?", "¿se pueden hacer reembolsos o devoluciones?", "¿se pueden hacer cambios o devoluciones?", "¿cual es su politica de reembolsos?", "¿cual es su politica de devoluciones?", "¿cual es su politica de cambios?", "¿cual es su politica de reembolsos y devoluciones?", "¿que pasa si mi accesorios llega dañado?", "¿que pasa si mi accesorio llega roto?", "¿que pasa si mi accesorio llega en mal estado?", "¿que pasa si no me gusta mi accesorio?"], 
+        "responses": ["Recuerda que todos nuestros productos son artesanales y hechos a mano, por lo que cada pieza es única y especial. \n❌No aceptamos cambios ni devoluciones por productos que no te gusten o que no sean de tu agrado.", "⚠️ Si tu producto llega dañado o roto, puedes contactarnos a traves de MD en Instagram para resolver el inconveniente. \n No nos hacemos responsables en caso de daños por un mal cuidado de los accesorios."]
+     },
+
+     {
+        "tag": "descuentos",
+        "patterns": ["¿tienen descuentos?", "¿hacen descuentos?", "¿tienen promociones?", "¿hacen promociones?", "¿tienen ofertas?", "¿hacen ofertas?", "¿hay descuentos?", "¿hay promociones?", "¿hay ofertas?", "¿hay rebajas?", "¿Hay descuento si compro al por mayor?", "¿que pasa si compro muchos accesorios?", "¿hay descuento si compro varios accesorios?", "¿hay descuento si compro varios productos?", "¿hay descuento si compro al por mayor?"], 
+        "responses": ["Actualmente no contamos con descuentos fijos por la compra de uno o mas accesorios, pero si quieres comprar al por mayor, puedes contactarnos a traves de MD en Instagram para consultar por precios especiales 🏷️", "No contamos con ofertas fijas, así que te recomendamos estar atento a nuestras redes sociales para estar enterado de cualquier novedad y precios especiales 🎉"]
+     },
+
+     {
+        "tag": "personalizacion",
+        "patterns": ["¿Puedo personalizar un accesorio?", "¿Hacen productos personalizados?", "¿Se pueden hacer accesorios con mi diseño?", "¿Hacen pedidos personalizados?", "¿Puedo pedir un diseño personalizado?", "¿Pueden hacer un accesorio con mi nombre?", "¿Aceptan pedidos especiales?"],
+        "responses": ["¡Claro que sí! Podemos personalizar un accesorio a tu gusto 🖌️. Escríbenos por MD en Instagram con tu idea o referencia y te contamos si es posible realizarlo y cuánto costaría 💬 \n Ten en cuenta que el precio puede aumentar dependiendo la dificultad o detalles que quieras agregar.", "Sí, hacemos accesorios personalizados 💖. Solo necesitas enviarnos una referencia o explicarnos tu idea a través de DM en Instagram.\n Ten en cuenta que el precio puede aumentar dependiendo la dificultad o detalles que quieras agregar."]
+    },
+
+    {
+        "tag": "regalos",
+        "patterns": ["¿Hacen envolturas para regalo?", "¿Puedo pedir un accesorio como regalo?", "¿Hacen empaques especiales?", "¿Tienen opciones para regalar?", "¿Puedo pedir un empaque de regalo?", "¿Tienen empaques bonitos?", "¿Puedo pedir que lo envíen como regalo?"],
+        "responses": ["¡Sí! Podemos preparar tus accesorios con empaque especial para regalo 🎁. Solo debes mencionarlo al hacer tu pedido, y te mostraremos las opciones disponibles.", "Ofrecemos empaques especiales para regalo. Escríbenos por MD y con gusto te mostramos cómo quedarían 🎀"]
+    },
+
+    {
+        "tag": "estado_pedido",
+        "patterns": ["¿Cómo sé si mi pedido ya fue enviado?", "¿Cómo puedo saber el estado de mi pedido?", "¿Ya enviaron mi pedido?", "¿Puedo rastrear mi pedido?", "¿Dónde va mi pedido?", "¿Cuánto tarda mi pedido?", "¿Cómo consulto el envío?"],
+        "responses": ["Te notificaremos por mensaje cuando tu pedido haya sido enviado y una vez este disponible, el numero y foto de la guia 🪄. Si tienes alguna duda, puedes escribirnos por DM con tu nombre o número de pedido y te damos más detalles.", "Si ya realizaste tu compra, puedes consultarnos el estado de tu pedido por MD en Instagram. Te ayudaremos lo más pronto posible 💌"]
+    }
+]
+}
