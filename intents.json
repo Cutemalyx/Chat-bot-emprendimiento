@@ -15,7 +15,6 @@
         "tag": "materiales",
         "patterns": ["¿De qué material están hechos los accesorios?", "¿Qué materiales usas para hacer los accesorios?", "¿Cuáles son los materiales de los accesorios?", "¿De qué materiales son los productos", "¿De que estan hechos los accesorios?", "¿de que estan hechos sus productos?", "¿que material utilizan?"],
         "responses": ["Todos nuestros accesorios estan hechos en porcelanicron o porcelana fria, una masa flexible y moldeable que se seca al aire. Además, utilizamos pintura acrílica y barniz para darles un acabado brillante y duradero. \n✨ Nuestros productos son artesanales, por lo que cada pieza es única y especial ✨", "Ademas del porcelanicron, utilizamos otros materiales como bisuteria de acero inoxidable y en nuestros aretes contamos con la opcion de plastico hipoalergenico, para aquellas persona con piel más sensible❣️"]
-        
     },
     
     {
@@ -83,5 +82,6 @@
         "patterns": ["¿Cómo sé si mi pedido ya fue enviado?", "¿Cómo puedo saber el estado de mi pedido?", "¿Ya enviaron mi pedido?", "¿Puedo rastrear mi pedido?", "¿Dónde va mi pedido?", "¿Cuánto tarda mi pedido?", "¿Cómo consulto el envío?"],
         "responses": ["Te notificaremos por mensaje cuando tu pedido haya sido enviado y una vez este disponible, el numero y foto de la guia 🪄. Si tienes alguna duda, puedes escribirnos por DM con tu nombre o número de pedido y te damos más detalles.", "Si ya realizaste tu compra, puedes consultarnos el estado de tu pedido por MD en Instagram. Te ayudaremos lo más pronto posible 💌"]
     }
+      
 ]
 }
