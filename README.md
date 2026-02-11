@@ -2,7 +2,7 @@
 
 🌸 Un chatbot híbrido para emprendimientos artesanales 🌸
 
-[![STATUS](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)]()
+[![STATUS](https://img.shields.io/badge/STATUS-FINALIZADO-brightgreen)]()
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)]()
 [![Flask](https://img.shields.io/badge/Flask-2.0+-yellow)]()
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.8+-red)]()
@@ -51,6 +51,11 @@ Chat-bot-emprendimiento/
 ├── unknown_questions.log    # Preguntas no reconocidas
 └── README.md                # Este archivo
 ```
+---
+
+## ✍🏻 Autora 
+👩🏻‍💻 Maria Paula Rodriguez - @Cutemalyx
+
 ---
 
 **Creado con el 💖 para pequeños emprendimientos.**
