@@ -6,6 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)]()
 [![Flask](https://img.shields.io/badge/Flask-2.0+-yellow)]()
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.8+-red)]()
+[![Stargazers](https://img.shields.io/github/stars/Cutemalyx/Chat-bot-emprendimiento?style=social&label=✨%20Estrellas)](https://github.com/Cutemalyx/Chat-bot-emprendimiento/stargazers)
 
 ## 🍒 Descripción del Proyecto
 
